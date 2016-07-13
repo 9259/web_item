@@ -1,0 +1,98 @@
+.all-width{
+	width: 990px;
+	margin: 0 auto;
+}
+.header{
+	height: 84px;
+}
+.header span{
+	font-size: 24px;
+	line-height: 84px;
+	color: #3a3a3a;
+}
+.main{
+	height: 475px;
+	background: #6c4eca;
+}
+.main-img{
+	height: 475px;
+	background: url(../images/login-image.jpg) no-repeat;
+}
+.login{
+	float: right;
+	width: 350px;
+	height: 360px;
+	margin-top: 40px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.a-login,.login form{
+	font-size: 14px;
+	color: #999999;
+}
+.login form{
+	margin: 50px 0 0 20px;
+}
+.login form input{
+	display: block;
+	width: 290px;
+	height: 30px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+.a-login label{
+	margin: 0 140px 0 20px;
+}
+.login-btn a{
+	display: block;
+	width: 292px;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	background: #1d7ad9;
+	margin: 35px 0 0 20px;
+}
+.link{
+	margin: 40px 0 0 20px;
+}
+.link p{
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 8px;
+}
+.link li{
+	float: left;
+	height: 15px;
+	font-size: 14px;
+	line-height: 15px;
+	padding: 0 10px;
+	border-right: 1px solid #ccc;
+	color: #666666;
+}
+.link li:hover{
+	color: #E50007;
+	text-decoration: underline;
+}
+.link .link-a{
+	margin-left: -10px;
+}
+.link .link-more{
+	border: none;
+	background: url(../images/login/sj.png) right center no-repeat;
+}
+.register{
+	margin: -310px 0 0 250px;
+	
+}
+.register a{
+	width: 115px;
+	height: 30px;
+	color: #ff0000;
+}
+
+
+
+
+

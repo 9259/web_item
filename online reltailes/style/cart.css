@@ -1,0 +1,332 @@
+/*通用样式*/
+.all-width{
+	width: 1000px;
+	margin: 0 auto;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix{
+	clear: both;
+	zoom: 1;
+}
+/*头部收藏+登录条*/
+.loginbar{
+	display: block;
+	height: 30px;
+	background-color: #f7f7f7;
+	font:12px "宋体";
+	border-bottom:1px solid #eeeeee;
+}
+.collect{
+	margin-top:9px;
+	padding-left: 17px;
+	font-weight:bold;
+	background: url(../images/icon/黄色五角星.png) left center no-repeat;
+}
+.login{
+	margin-top:10px;
+}
+.login li{
+	float:left;
+}
+.login li a:hover{
+	color:#E61061;
+	text-decoration: underline;
+}
+.progress{
+	height: 84px;
+	background-color: #1d7ad9;
+}
+.progress-bar{
+	float: right;
+	color: #fff;
+	margin-top: 30px;
+}
+.progress-bar li{
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 100px;
+}
+.progress-bar-active{
+	color: #f3e402;
+}
+/*主体部分*/
+.main{
+	min-height: 200px;
+	margin: 10px auto 30px;
+}
+/*收货信息*/
+#info{
+	height: 252px;
+}
+.main h3{
+	height: 32px;
+	line-height: 32px;
+	text-indent: 10px;
+	background: #f5f5f5;
+	border-bottom: 1px solid #ccc;
+}
+.main em{
+	font-style: normal;
+	color: #D70000;
+	margin-right: 5px;
+}
+.bor{
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+.distance{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#info ul li {
+	margin-bottom: 10px;
+}
+#info ul li div{
+	display: inline-block;
+	font-size: 14px;
+	padding: 0 25px 0 5px;
+	background: url(../images/cart/小箭头.png) right center no-repeat;
+	border: 1px solid #ccc;
+}
+#info ul li input{
+	height: 20px;
+	border: 1px solid #ccc;
+}
+#info>input{
+	width: 115px;
+	height: 30px;
+	color: #fff;
+	line-height: 25px;
+	background: #4391fc;
+}
+/*支付方式*/
+#pay{
+	height: 150px;
+}
+.radio{
+	margin-bottom: 10px;
+}
+.form span{
+	font-family: "宋体";
+	color: #444444;
+	padding-left: 15px;
+}
+.form label{
+	cursor: pointer;
+}
+.form input{
+	
+}
+/*发票信息*/
+#bill{
+	height: 208px;
+}
+#bill label{
+	font-size: 16px;
+}
+#bill li{
+	margin-top: 15px;
+}
+#bill select,
+#bill input{
+	border: 1px solid #ccc;
+}
+#bill li input{
+	height: 20px;
+	margin-left: 10px;
+}
+#bill .distance>input{
+	width: 66px;
+	height: 24px;
+	margin: 20px 0 0 10px;
+	background: #f6f6f6;
+}
+#bill .distance  .active{
+	color: #fff;
+	background: #4290fb;
+}
+/*送货清单*/
+#tips{
+	min-height: 270px;
+}
+#tips .top{
+	height: 35px;
+	line-height: 35px;
+	margin-left: 10px;
+	border-bottom: 1px solid #ccc;
+}
+#tips .top li{
+	float: left;
+	width: 105px;
+	font-size: 14px;
+	color: #666666;
+}
+.center-li{
+	text-align: center;
+}
+.li-margin{
+	margin-right: 15px;
+}
+#tips .top .w{
+	margin-right: 340px;
+}
+.cart-list{
+	height: 160px;
+	margin: 20px 0 0 10px;
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: -1px;
+}
+.cart-list>ul>li{
+	float: left;
+	width: 105px;
+	height: 110px;
+	font-size: 14px;
+	color: #666666;
+}
+.cart-list .list-img{
+	width: 80px;
+	height: 110px;
+	margin-left: 10px;
+}
+.cart-list .list-introduce{
+	width: 550px;
+	font-size: 12px;
+	margin: 0px;
+}
+.cart-list-price {
+	font-weight: bold;
+}
+.list-left{
+	width: 400px;
+}
+.list-left>input{
+	float: left;
+}
+.cart-list .list-text a{
+	width: 250px;
+	display: block;
+	margin: 0 0 10px 10px;
+	overflow: hidden;
+}
+.cart-list .list-text .list-text-a{
+	height: 35px;
+	line-height: 18px;
+	color: #000;
+}
+.cart-list .list-text .icon1{
+	text-indent: 22px;
+	background: url(../images/cart/1.png) left no-repeat;
+}
+.cart-list .list-text .icon2{
+	text-indent: 22px;
+	background: url(../images/cart/2.png) left no-repeat;
+}
+.list-right{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+}
+.list-right span{
+	display: block;
+}
+.gift{
+	display: block;
+	padding: 10px 0 0 25px;
+}
+.cart-list .add div{
+	width: 82px;
+	height: 20px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.cart-list .add input{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.cart-list .add-mark{
+	width: 20px;
+	height: 20px;
+}
+.cart-list .add .num{
+	width: 30px;
+	height: 20px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.operate a{
+	display: block;
+}
+/*订单结算部分*/
+#result{
+	height: 50px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 50px;
+	border: 1px solid #ccc;
+}
+#result label{
+	margin: 0 20px 0 10px;
+}
+.result-right{
+	
+}
+.result-right i,
+.result-right em{
+	color: #ee0000;
+}
+.result-right i{
+	margin: 0 5px;
+}
+.result-right em{
+	font-size: 20px;
+}
+.result-right input{
+	display: inline-block;
+	width: 80px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 20px;
+	background: #e50007;
+}
+.cart-list a:hover,
+.cart-list .list-text  .list-text-a:hover,
+#result a:hover{
+	color: #ee0000;
+}
+/*footer部分*/
+#footer{
+	font:12px "宋体";
+	background: #ccc;
+	text-align: center;
+	margin-top:50px;
+}
+.footer-text li{
+	display: inline-block;
+	height: 12px;
+	margin-top: 50px;
+	margin-bottom: 12px;
+	padding-right:4px;
+	border-right:1px solid #000;
+	line-height: 12px;
+}
+.footer-text li:last-child{
+	border:none;
+}
+.footer-img{
+	height: 90px;
+	margin-top:36px;
+}
+.footer-img li{
+	display: inline-block;
+}

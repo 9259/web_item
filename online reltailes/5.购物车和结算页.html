@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车人</title>
+		<link rel="stylesheet" type="text/css" href="style/reset.css" />
+		<link rel="stylesheet" type="text/css" href="style/cart.css" />
+		<script src="javascript/cart.js"></script>
+	</head>
+	<body>
+	<!--头部-->
+	<div id="header">
+		<!--登陆条-->
+		<div class="loginbar">
+			<div class="all-width">
+				<a class="collect fl" href="#">收藏本站</a>
+				<ul class="login fr">
+					<li><h5>欢迎来到本商城！</h5></li>
+					<li><a href="6.登录页.html">[登录]</a></li>
+					<li><a href="#">[免费注册]</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--进度条-->
+		<div class="progress">
+			<div class="all-width">
+				<div class="progress-bar">
+					<img src="images/cart/进度条.png" alt="" />		
+					<ul>
+						<li class="progress-bar-active">我的购物车</li>
+						<li class="progress-bar-active">填写核对订单</li>
+						<li class="">订单提交成功</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--主体部分-->
+	<div class="main all-width">
+		<!--收货信息-->
+		<div id="info" class="bor">
+			<h3>收货信息</h3>
+			<ul class="distance">
+				<li><em>*</em>选择地区：<div class="sel">北京市 海定区 五环内</div></li>
+				<li><em>*</em>详细地址：<input type="text" value="" placeholder="最多输入26个汉字" style="width:400px"/></li>
+				<li><em>*</em>收&nbsp; 货 &nbsp;人：<input type="text" value="" placeholder="最多输入10个汉字"/></li>
+				<li><em>*</em>手&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;机：<input type="text" value="" placeholder="11位数字"/> 
+					或固定电话：<input type="text" value="" placeholder="区号" style="width:50px"/>
+					<span>-</span>
+					<input type="text" value="" placeholder="电话号码"/>
+					<span>-</span>
+					<input type="text" value="" placeholder="分机号(可选)"/>
+				</li>
+			</ul>
+			<input type="button" name="" id="" class="distance" value="确认收货地址" />
+		</div>
+		<!--支付方式-->
+		<div id="pay" class="bor">
+			<h3>支付方式</h3>
+			<form class="form distance" action="">
+				<label for="weixin"><input type="radio" name="pay" id="weixin" class="radio" value="" checked="checked" /><i>微信支付<span>用微信扫一扫就能支付！</span></i></label>
+				<br />
+				<label for="zhifubao"><input type="radio" name="pay" id="zhifubao" class="radio" value="" /><i>支付宝支付<span>用支付宝在线支付！</span></i></label>
+				<br />
+				<label for="xianjin"><input type="radio" name="pay" id="xianjin" class="radio" value="" /><i>货到付款<span>送货上门后再付款，使用现金或刷银行卡。</span></i></label>
+				<br />
+			</form>
+		</div>
+		<!--发票信息-->
+		<div id="bill" class="bor">
+			<h3>发票信息</h3>
+			<div class="distance">
+				<label for=""><input type="checkbox" />需要发票</label>
+				<ul>
+					<li>
+						<em>*</em>发票类型：
+						<select name="">
+							<option value="商业零售发票">商业零售发票</option>
+							<option value="商业零售发票">商业发票</option>
+							<option value="商业零售发票">增值发票</option>
+						</select>
+					</li>
+					<li>
+						<em>*</em>发票抬头：
+						<select name="">
+							<option value="个人">个人</option>
+							<option value="单位">单位</option>
+						</select>
+						<input type="text" placeholder="名字"/>
+					</li>
+				</ul>
+				<input class="active" type="button" id="" value="保存" />
+				<input type="button" id="" value="取消" />
+			</div>
+		</div>
+		<!--送货清单-->
+		<div id="tips" class="bor">
+			<h3>送货清单</h3>
+			<div class="top">
+				<ul>
+					<li><label for="all-top"><input type="checkbox" name="all" id="all-top"/> 全选</label></li>
+					<li class="w">商品名称</li>
+					<li class="center-li">单价</li>
+					<li class="center-li">数量</li>
+					<li class="center-li li-margin">小计(元)</li>
+					<li>操作</li>
+				</ul>
+			</div>
+			<div class="cart-list">
+				<ul>
+					<li class="list-introduce w">
+						<div class="list-left fl">
+							<input type="checkbox" />
+								<a href="4.商品介绍、评价.html" target="_blank"><img class="list-img fl" src="images/apple-img.png" alt="" /></a>
+							<ul class="list-text fl">
+								<li>
+									<a class="list-text-a" href="4.商品介绍、评价.html" target="_blank">全网底价 Apple 苹果 iPad mini 16G wifi版 平板电脑 前白后银 银白两色生产批次不同混合发货</a>
+								</li>
+								<li>
+									<a class="icon1" href="">购买礼品包装</a>
+								</li>
+								<li>
+									<a class="icon2" href="">购买增值保障</a>
+								</li>
+							</ul>
+							<a class="gift clearfix" href="">【赠品】会员卡 月卡 实体卡(31天)&nbsp;&nbsp;X 1</a>
+						</div>
+						<div class="list-right fr">
+							<span>颜色：<i>金</i></span>
+							<span>尺码：<i>WIFI版64G</i></span>
+						</div>
+					</li>
+					<li class="center-li">3299.00</li>
+					<li class="add center-li">
+						<div>
+							<input class="add-mark" type="button" value="-"/>
+							<input class="num" type="text" value="1"/>
+							<input class="add-mark" type="button" value="+"/>
+						</div>
+					</li>
+					<li class="cart-list-price center-li li-margin">3299.00</li>
+					<li class="operate">
+						<a href="">删除</a>
+						<a href="">移到我的关注</a>
+					</li>
+				</ul>
+			</div>
+			<div class="cart-list">
+				<ul>
+					<li class="list-introduce w">
+						<div class="list-left fl">
+							<input type="checkbox" />
+								<img class="list-img fl" src="images/apple-img.png" alt="" />
+							<ul class="list-text fl">
+								<li>
+									<a class="list-text-a" href="">全网底价 Apple 苹果 iPad mini 16G wifi版 平板电脑</a>
+								</li>
+								<li>
+									<a class="icon1" href="">购买礼品包装</a>
+								</li>
+								<li>
+									<a class="icon2" href="">购买增值保障</a>
+								</li>
+							</ul>
+							<a class="gift clearfix" href="">【赠品】会员卡 月卡 实体卡(31天)&nbsp;&nbsp;X 1</a>
+						</div>
+						<div class="list-right fr">
+							<span>颜色：<i>金</i></span>
+							<span>尺码：<i>WIFI版64G</i></span>
+						</div>
+					</li>
+					<li class="center-li">3299.00</li>
+					<li class="add center-li">
+						<div>
+							<input class="add-mark" type="button" value="-"/>
+							<input class="num" type="text" value="1"/>
+							<input class="add-mark" type="button" value="+"/>
+						</div>
+					</li>
+					<li class="cart-list-price center-li li-margin">3299.00</li>
+					<li class="operate">
+						<a href="">删除</a>
+						<a href="">移到我的关注</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--订单结算部分-->
+		<div id="result">
+			<label for="all-bottom"><input type="checkbox" name="all" id="all-bottom"/> 全选</label>
+			<a href="">删除选中的商品</a>
+			<a href="">移到我的关注</a>
+			<div class="result-right fr">
+				<span>已选择<i>1</i>件商品</span>
+				<span>总价（不含运费）：<em>￥3299.00</em></span>
+				<input type="button" value="结算"/>
+			</div>
+		</div>
+	</div>
+	<!--footer部分-->
+	<div id="footer" class="clearfix">
+		<div class="all-width">
+			<ul class="footer-text">
+				<li><a href="">我的简介</a></li>
+				<li><a href="">我的公告</a></li>
+				<li><a href="">招贤纳士</a></li>
+				<li><a href="">联系我们</a></li>
+				<li><a href="400-675-1234">客服热线：400-675-1234</a></li>
+			</ul>
+			<p>Copyright © 2006 - 2014 慕课版权所有&nbsp;京ICP备09037834号 &nbsp;京ICP证B1034-8373号 &nbsp;某市公安局XX分局备案编号：123456789123</p>
+			<ul class="footer-img">
+				<li><img src="images/footer.png" alt="" /></li>
+				<li><img src="images/footer.png" alt="" /></li>
+				<li><img src="images/footer.png" alt="" /></li>
+				<li><img src="images/footer.png" alt="" /></li>
+			</ul>
+		</div>
+	</div>
+	</body>
+</html>
